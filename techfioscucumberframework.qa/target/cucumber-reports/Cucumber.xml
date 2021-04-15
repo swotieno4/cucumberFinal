@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.373555">
+    <testcase classname="Background Verification" name="Verify background color change" time="8.373555">
+        <system-out>
+            <![CDATA[Given User is in main page..................................................passed
+When User clicks Set SkyBlue Background Button..............................passed
+Then the background color is observed to change successfully to Blue........passed
+Then the user Clicks on Set White Background Button and the background color changes to White.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-20T04:44:11.513Z",
+        "line": 4,
+        "name": "Verify background color change",
+        "description": "",
+        "id": "background-verification;verify-background-color-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7349374200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in main page",
+            "match": {
+              "location": "StepDefination.user_is_in_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100179000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks Set SkyBlue Background Button",
+            "match": {
+              "location": "StepDefination.user_clicks_Set_SkyBlue_Background_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70248900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color is observed to change successfully to Blue",
+            "match": {
+              "location": "StepDefination.the_background_color_is_observed_to_change_successfully_to_Blue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 839429400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user Clicks on Set White Background Button and the background color changes to White",
+            "match": {
+              "location": "StepDefination.the_user_Clicks_on_Set_White_Background_Button_and_the_background_color_changes_to_White()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Background Verification",
+    "description": "",
+    "id": "background-verification",
+    "keyword": "Feature",
+    "uri": "file:/C:/eclipse/techfioscucumberframework.qa/src/test/java/feature/login.feature",
+    "tags": []
+  }
+]
